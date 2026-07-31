@@ -1,0 +1,82 @@
+{
+  "pure_heston": {
+    "tag": "pure_heston",
+    "params": "RoughHestonParams(S0=1.0, V0=0.04, H=0.1, kappa=1.0, theta=0.04, nu=0.3, rho=-0.5, r=0.03, d=0.0, T=0.5, n_steps=300)",
+    "leverage_fn": "PureHestonLeverage",
+    "path_idx": 0,
+    "neg_J_count": 0,
+    "mass_at_final": 0.9999999999900261,
+    "p_recovered_max": 4.058477355242842,
+    "kde_comparison": {
+      "kde_l1_distance": 0.2450558218233595,
+      "mc_samples": 500
+    },
+    "mass_history_last5": [
+      0.9999999999900262,
+      0.9999999999900262,
+      0.9999999999900262,
+      0.9999999999900261,
+      0.9999999999900261
+    ],
+    "elapsed_sec": 0.2887113094329834,
+    "figures": [
+      "/workspace/project/exp/../results/exp4_pure_heston.png"
+    ]
+  },
+  "nontrivial_L": {
+    "tag": "nontrivial_L",
+    "params": "RoughHestonParams(S0=1.0, V0=0.04, H=0.1, kappa=1.0, theta=0.04, nu=0.3, rho=-0.5, r=0.03, d=0.0, T=0.5, n_steps=300)",
+    "leverage_fn": "LeverageFunction",
+    "path_idx": 0,
+    "neg_J_count": 0,
+    "mass_at_final": 0.9999999999900261,
+    "p_recovered_max": 4.053409691752862,
+    "kde_comparison": {
+      "kde_l1_distance": 0.24562680648655263,
+      "mc_samples": 500
+    },
+    "mass_history_last5": [
+      0.9999999999900262,
+      0.9999999999900262,
+      0.9999999999900261,
+      0.999999999990026,
+      0.9999999999900261
+    ],
+    "elapsed_sec": 0.2725832462310791,
+    "figures": [
+      "/workspace/project/exp/../results/exp4_nontrivial_L.png"
+    ]
+  },
+  "strong_L": {
+    "tag": "strong_L",
+    "params": "RoughHestonParams(S0=1.0, V0=0.04, H=0.1, kappa=1.0, theta=0.04, nu=0.3, rho=-0.5, r=0.03, d=0.0, T=0.5, n_steps=300)",
+    "leverage_fn": "LeverageFunction",
+    "path_idx": 0,
+    "neg_J_count": 0,
+    "mass_at_final": 0.9999999999900269,
+    "p_recovered_max": 4.035367088283189,
+    "kde_comparison": {
+      "kde_l1_distance": 0.24755114831696937,
+      "mc_samples": 500
+    },
+    "mass_history_last5": [
+      0.9999999999900269,
+      0.9999999999900269,
+      0.9999999999900269,
+      0.9999999999900269,
+      0.9999999999900269
+    ],
+    "elapsed_sec": 0.2924802303314209,
+    "figures": [
+      "/workspace/project/exp/../results/exp4_strong_L.png"
+    ]
+  },
+  "H0.05": {
+    "mass_at_final": 0.9999999999900285,
+    "neg_J_count": 0
+  },
+  "H0.30": {
+    "mass_at_final": 0.9999999999900269,
+    "neg_J_count": 0
+  }
+}
